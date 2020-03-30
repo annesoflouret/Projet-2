@@ -26,10 +26,14 @@ body
   justify-content: space-between;
   margin-bottom: 2em;
 }
+
 .date-place
 {
   text-align: left;
+  width: 15em;
+  margin-right: 2em;
 }
+
 .info
 {
   width: 370px;
@@ -58,14 +62,21 @@ body
   border: 1px groove grey;
 }
 
+#student
+{
+  border-bottom:2px solid #00695C;
+}
+
 
 h1, h3, h1+h2
 {
   font-weight: normal;
 }
+
 h1
 {
   margin-bottom: 0em;
+  font-size: xx-large;
 }
 
 h2
@@ -78,49 +89,69 @@ h2
 h3
 {
   color: black;
-  border-bottom:2px solid #FDC909;
-
 }
 
 ul 
 {
   list-style: none;
 }
+
 .maincolor
 {
-	color: #FDC909;
+	color: #00695C;
 }
 
 .fa-graduation-cap
 {
-  color: #FDC909;
+  color: #00695C;
   margin-right: 1.5em;
 }
 
 .fa-briefcase
 {
-  color: #FDC909;
+  color: #00695C;
   margin-right: 1.5em;
 }
 
 .fa-pencil-alt
 {
-  color: #FDC909;
+  color: #00695C;
   margin-right: 1.5em;
 }
 
 .fa-dot-circle
 {
-  vertical-align: top;
-  font-size: 0.9em;
-  color: #FDC909;
+  padding-top: 0.3em;
+  font-size: 0.6em; 
+  color: #00695C;
+  margin-right: 0.5em;
+  padding-right: 0.6em;
 }
 
 .fa-circle
 {
-  vertical-align: top;
-  font-size: 0.6em;
-  color: #FDC909;
+  padding-top: 0.5em;
+  font-size: 0.5em;
+  color: #00695C;
+  padding-right: 0.6em
+}
+
+.fa-utensils 
+{
+  font-size: 1.3em;
+  margin-left: 2em;
+}
+
+.fa-laptop
+{
+  font-size: 1.5em;
+  margin-left: 1.2em;
+}
+
+.fa-video
+{
+  font-size: 1.5em;
+  margin-left: 1.2em;
 }
 
 #image-ronde
@@ -133,21 +164,21 @@ ul
   margin: 48px;
   margin-bottom: 28px;
   margin-top: 28px;
-  border: 2px solid #CEB249;
-  
+  border: 2px solid #80CBC4;
 }
 
 #sidebar 
 {
   display: block;
   width: 220px;
-  background-color: #FDC909;
+  background-color: #00695C;
   border-top: groove;
   border-left: groove;
   border-bottom: groove;
 }
 
-#main {
+#main 
+{
   padding: 40px;
   border-top: groove;
   border-right: groove;
@@ -158,7 +189,7 @@ ul
 {
   text-align: center;
   background-color: #404040;
-  color: #FDC909;
+  color: #00695C;
   padding: 4px;
   font-style: normal;
 }
@@ -172,11 +203,12 @@ ul
 
 #name
 {
-  color: #FDC909;
+  color: #00695C;
 }
 
 /* CSS pour petits écrans */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) 
+{
   body
   {
     display:flex;
