@@ -1,44 +1,126 @@
-
-body 
-{
-	font-style: normal;
-}
 @font-face
 {
-    font-family: 'arialregular';
-    src: url('arial-webfont.eot');
-    src: url('arial-webfont.eot?#iefix') format('embedded-opentype'),
-         url('arial-webfont.woff') format('woff'),
-         url('arial-webfont.ttf') format('truetype'),
-         url('arial-webfont.svg#droid_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-body
-{
-    background-image: url('greyzz.png');
-    margin: 0px;
+  font-family: 'helvetica';
+  src: url('helvetica-webfont.eot');
+  src: url('helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+       url('helvetica-webfont.woff') format('woff'),
+       url('helvetica-webfont.ttf') format('truetype'),
+       url('helvetica-webfont.svg#droid_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body
 {
-    font-family: 'Arial', sans-serif;
+  font-style: normal;
+  margin: 0px;
+  font-family: helvetica, 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
-h1, h1 + p
+.experience
 {
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.date-place
+{
+  text-align: left;
+}
+.info
+{
+  width: 370px;
 }
 
+.company
+{
+  margin-bottom: 0.8em;
+  font-weight: bold;
+}
+
+.job-name
+{
+  margin-bottom: 0.8em;
+  font-size: 14px;
+}
+
+.description
+{
+  font-size: 14px;
+}
+
+#frame
+{
+  
+  border: 1px groove grey;
+}
+
+
+h1, h3, h1+h2
+{
+  font-weight: normal;
+}
+h1
+{
+  margin-bottom: 0em;
+}
 
 h2
 {
-    color: grey;
+  font-size: 18px;
+  margin-top: 0.2em;
+  margin-bottom: 4em;
+}
+
+h3
+{
+  color: black;
+  border-bottom:2px solid #FDC909;
+
+}
+
+ul 
+{
+  list-style: none;
 }
 .maincolor
 {
-	color: yellow;
+	color: #FDC909;
+}
+
+.fa-graduation-cap
+{
+  color: #FDC909;
+  margin-right: 1.5em;
+}
+
+.fa-briefcase
+{
+  color: #FDC909;
+  margin-right: 1.5em;
+}
+
+.fa-pencil-alt
+{
+  color: #FDC909;
+  margin-right: 1.5em;
+}
+
+.fa-dot-circle
+{
+  vertical-align: top;
+  font-size: 0.9em;
+  color: #FDC909;
+}
+
+.fa-circle
+{
+  vertical-align: top;
+  font-size: 0.6em;
+  color: #FDC909;
 }
 
 #image-ronde
@@ -48,26 +130,28 @@ h2
   -moz-border-radius : 75px;
   -webkit-border-radius : 75px;
   border-radius : 75px;
-  margin: 13px;
+  margin: 48px;
+  margin-bottom: 28px;
+  margin-top: 28px;
   border: 2px solid #CEB249;
   
 }
 
-body {
-  display:flex;
-  flex-wrap: nowrap;
-}
 #sidebar 
-
 {
-    display: block;
-    width: 150px;
-    border: 1px solid black;
-    background-color: #FDC909;
+  display: block;
+  width: 220px;
+  background-color: #FDC909;
+  border-top: groove;
+  border-left: groove;
+  border-bottom: groove;
 }
 
 #main {
-  padding: 10px;
+  padding: 40px;
+  border-top: groove;
+  border-right: groove;
+  border-bottom: groove;
 }
 
 .sidebar-title
@@ -76,31 +160,37 @@ body {
   background-color: #404040;
   color: #FDC909;
   padding: 4px;
+  font-style: normal;
 }
 
 .sidebar-content
 {
   margin: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+#name
+{
+  color: #FDC909;
 }
 
 /* CSS pour petits écrans */
 @media only screen and (max-width: 1024px) {
-  #conteneur {
+  body
+  {
     display:flex;
     flex-wrap: wrap-reverse;
-}
-  #image-ronde { display: none; }
-  #sidebar {
+  }
+  #section-image
+  {
+    display: flex;
+    justify-content: center;
+  }
+  #sidebar
+  {
     width: 100%;
   }
-
-  section
-  {
-    border: 1px solid yellow;
-  }
-#name
-{
-  color: #FDC909 ;
 }
 
 
