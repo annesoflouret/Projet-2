@@ -1,0 +1,106 @@
+
+body 
+{
+	font-style: normal;
+}
+@font-face
+{
+    font-family: 'arialregular';
+    src: url('arial-webfont.eot');
+    src: url('arial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('arial-webfont.woff') format('woff'),
+         url('arial-webfont.ttf') format('truetype'),
+         url('arial-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    background-image: url('greyzz.png');
+    margin: 0px;
+}
+
+body
+{
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h1 + p
+{
+    text-align: center;
+}
+
+
+h2
+{
+    color: grey;
+}
+.maincolor
+{
+	color: yellow;
+}
+
+#image-ronde
+{
+  width : 120px; height : 120px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+  margin: 13px;
+  border: 2px solid #CEB249;
+  
+}
+
+body {
+  display:flex;
+  flex-wrap: nowrap;
+}
+#sidebar 
+
+{
+    display: block;
+    width: 150px;
+    border: 1px solid black;
+    background-color: #FDC909;
+}
+
+#main {
+  padding: 10px;
+}
+
+.sidebar-title
+{
+  text-align: center;
+  background-color: #404040;
+  color: #FDC909;
+  padding: 4px;
+}
+
+.sidebar-content
+{
+  margin: 10px;
+}
+
+/* CSS pour petits écrans */
+@media only screen and (max-width: 1024px) {
+  #conteneur {
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+  #image-ronde { display: none; }
+  #sidebar {
+    width: 100%;
+  }
+
+  section
+  {
+    border: 1px solid yellow;
+  }
+#name
+{
+  color: #FDC909 ;
+}
+
+
