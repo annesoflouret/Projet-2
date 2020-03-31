@@ -248,17 +248,12 @@ ul
     border: none;
   }
 
-  .sidebar-content
-  {
-    display: flex;
-    justify-content: center;
-    font-size: 
-  }
-
   #main
   {
     width: 100%;
     border: none;
+    box-sizing: border-box;
+    padding: 5px 5px;
   }
 }
 
