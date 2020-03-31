@@ -139,20 +139,36 @@ ul
 .fa-utensils 
 {
   font-size: 1.3em;
-  margin-left: 2em;
 }
 
 .fa-laptop
 {
   font-size: 1.5em;
-  margin-left: 1.2em;
 }
 
 .fa-video
 {
   font-size: 1.5em;
-  margin-left: 1.2em;
 }
+
+.fa-laptop, .fa-utensils, .fa-video
+{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#activities
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
 
 #image-ronde
 {
@@ -179,6 +195,7 @@ ul
 
 #main 
 {
+  display: block;
   padding: 40px;
   border-top: groove;
   border-right: groove;
@@ -206,6 +223,11 @@ ul
   color: #00695C;
 }
 
+#about
+{
+  margin-bottom: 10em;
+}
+
 /* CSS pour petits écrans */
 @media only screen and (max-width: 1024px) 
 {
@@ -219,9 +241,24 @@ ul
     display: flex;
     justify-content: center;
   }
+
   #sidebar
   {
     width: 100%;
+    border: none;
+  }
+
+  .sidebar-content
+  {
+    display: flex;
+    justify-content: center;
+    font-size: 
+  }
+
+  #main
+  {
+    width: 100%;
+    border: none;
   }
 }
 
