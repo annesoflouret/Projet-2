@@ -63,7 +63,7 @@ hr
   -moz-border-radius : 75px;
   -webkit-border-radius : 75px;
   border-radius : 75px;
-  margin: 48px;
+  margin: 68px;
   margin-bottom: 28px;
   margin-top: 28px;
   border: 2px solid #80CBC4;
@@ -72,7 +72,7 @@ hr
 #sidebar 
 {
   display: block;
-  width: 220px;
+  width: 260px;
   background-color: #00695C;
   border-top: 2px solid #9E9E9E;
   border-left: 2px solid #9E9E9E;
@@ -160,30 +160,13 @@ hr
   margin-right: 6em;
 }
 
-#recommandation-title
-{
-  margin-top: 9em;
-}
-
 #experience-title
 {
   margin-top: 5em;
 }
 
 /* Icones */
-.fa-graduation-cap
-{
-  color: #00695C;
-  margin-right: 1.5em;
-}
-
-.fa-briefcase
-{
-  color: #00695C;
-  margin-right: 1.5em;
-}
-
-.fa-pencil-alt
+.fa-graduation-cap, .fa-pencil-alt, .fa-briefcase
 {
   color: #00695C;
   margin-right: 1.5em;
@@ -206,26 +189,10 @@ hr
   padding-right: 0.6em
 }
 
-.fa-utensils 
-{
-  color: #263238;
-  font-size: 1.3em;
-}
-
-.fa-laptop
-{
-  color: #263238;
-  font-size: 1.5em;
-}
-
-.fa-video
-{
-  color: #263238;
-  font-size: 1.5em;
-}
-
 .fa-laptop, .fa-utensils, .fa-video
 {
+  color: #263238;
+  font-size: 1.5em;
   border: 2px solid #263238;
   padding: 10px;
   border-radius: 50%;
