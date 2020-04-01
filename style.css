@@ -1,32 +1,103 @@
-@font-face
-{
-  font-family: 'helvetica';
-  src: url('helvetica-webfont.eot');
-  src: url('helvetica-webfont.eot?#iefix') format('embedded-opentype'),
-       url('helvetica-webfont.woff') format('woff'),
-       url('helvetica-webfont.ttf') format('truetype'),
-       url('helvetica-webfont.svg#droid_sansregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
+/* Police */
 body
 {
   font-style: normal;
   margin: 0px;
-  font-family: helvetica, 'Arial', sans-serif;
+  font-family: 'helvetica', 'Arial', sans-serif;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
 }
 
-.experience
+/* Titres-Border */
+h1, h3, h1+h2
 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
+  font-weight: normal;
 }
 
+h1
+{
+  margin-bottom: 0em;
+  font-size: xx-large;
+}
+
+h2
+{
+  font-size: 18px;
+  margin-top: 0.2em;
+  margin-bottom: 5em;
+}
+
+h3
+{
+  color: black;
+  font-size: 20px;
+}
+
+hr
+{
+  border-top: 2px solid #009688;
+}
+
+/* Sidebar */
+.sidebar-title
+{
+  text-align: center;
+  background-color: #263238;
+  color: #00695C;
+  padding: 4px;
+  font-style: normal;
+}
+
+.sidebar-content
+{
+  margin: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+#image-ronde
+{
+  width : 120px; height : 120px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+  margin: 48px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+  border: 2px solid #80CBC4;
+}
+
+#sidebar 
+{
+  display: block;
+  width: 220px;
+  background-color: #00695C;
+  border-top: 2px solid #9E9E9E;
+  border-left: 2px solid #9E9E9E;
+  border-bottom: 2px solid #9E9E9E;
+}
+
+#about
+{
+  margin-bottom: 60em;
+}
+
+#contact
+{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#activities
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+/* Main */
 .date-place
 {
   text-align: left;
@@ -56,10 +127,11 @@ body
   font-size: 14px;
 }
 
-#frame
+.experience
 {
-  
-  border: 1px groove grey;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
 }
 
 #student
@@ -67,40 +139,38 @@ body
   border-bottom:2px solid #00695C;
 }
 
-
-h1, h3, h1+h2
+#main 
 {
-  font-weight: normal;
+  display: block;
+  padding: 40px;
+  border-top: 2px solid #9E9E9E;
+  border-right: 2px solid #9E9E9E;
+  border-bottom: 2px solid #9E9E9E;
 }
 
-h1
+#name
 {
-  margin-bottom: 0em;
-  font-size: xx-large;
+  color: #00695C;
 }
 
-h2
+#recommandation
 {
-  font-size: 18px;
-  margin-top: 0.2em;
-  margin-bottom: 4em;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 6em;
 }
 
-h3
+#recommandation-title
 {
-  color: black;
+  margin-top: 9em;
 }
 
-ul 
+#experience-title
 {
-  list-style: none;
+  margin-top: 5em;
 }
 
-.maincolor
-{
-	color: #00695C;
-}
-
+/* Icones */
 .fa-graduation-cap
 {
   color: #00695C;
@@ -138,22 +208,25 @@ ul
 
 .fa-utensils 
 {
+  color: #263238;
   font-size: 1.3em;
 }
 
 .fa-laptop
 {
+  color: #263238;
   font-size: 1.5em;
 }
 
 .fa-video
 {
+  color: #263238;
   font-size: 1.5em;
 }
 
 .fa-laptop, .fa-utensils, .fa-video
 {
-  border: 2px solid black;
+  border: 2px solid #263238;
   padding: 10px;
   border-radius: 50%;
   width: 20px;
@@ -161,71 +234,6 @@ ul
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#activities
-  {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-  }
-
-#image-ronde
-{
-  width : 120px; height : 120px;
-  border: none;
-  -moz-border-radius : 75px;
-  -webkit-border-radius : 75px;
-  border-radius : 75px;
-  margin: 48px;
-  margin-bottom: 28px;
-  margin-top: 28px;
-  border: 2px solid #80CBC4;
-}
-
-#sidebar 
-{
-  display: block;
-  width: 220px;
-  background-color: #00695C;
-  border-top: groove;
-  border-left: groove;
-  border-bottom: groove;
-}
-
-#main 
-{
-  display: block;
-  padding: 40px;
-  border-top: groove;
-  border-right: groove;
-  border-bottom: groove;
-}
-
-.sidebar-title
-{
-  text-align: center;
-  background-color: #404040;
-  color: #00695C;
-  padding: 4px;
-  font-style: normal;
-}
-
-.sidebar-content
-{
-  margin: 10px;
-  text-align: left;
-  font-size: 13px;
-}
-
-#name
-{
-  color: #00695C;
-}
-
-#about
-{
-  margin-bottom: 10em;
 }
 
 /* CSS pour petits écrans */
@@ -236,6 +244,8 @@ ul
     display:flex;
     flex-wrap: wrap-reverse;
   }
+
+  /* Sidebar */
   #section-image
   {
     display: flex;
@@ -248,12 +258,25 @@ ul
     border: none;
   }
 
+  #about
+  {
+    margin-bottom: 10em;
+  }
+
+  /* Main */
   #main
   {
     width: 100%;
     border: none;
     box-sizing: border-box;
     padding: 5px 5px;
+  }
+
+  #recommandation
+  {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0em;
   }
 }
 
