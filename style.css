@@ -131,6 +131,11 @@ hr
   margin-bottom: 3em;
 }
 
+.place
+{
+  padding-left: 1em;
+}
+
 #student
 {
   border-bottom:2px solid #00695C;
@@ -140,7 +145,7 @@ hr
 {
   display: block;
   padding: 40px;
-  padding-bottom: none;
+  padding-bottom: 0;
   border: 2px solid #9E9E9E;
   border-left: none;
 }
@@ -180,7 +185,6 @@ hr
   font-size: 0.6em; 
   color: #00695C;
   margin-right: 0.5em;
-  padding-right: 0.6em;
 }
 
 .fa-circle
@@ -239,7 +243,9 @@ hr
     border: none;
     box-sizing: border-box;
     padding: 5px;
+
   }
+
 
   #recommandation
   {
