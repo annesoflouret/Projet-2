@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <section id="sidebar"> 
-            <section id="section-image">
+        <div id="sidebar"> 
+            <div id="section-image">
                 <img id="image-ronde" src="id.png" alt="photo identite" />
-            </section>
-            <section>
-                <div class="sidebar-title">CONTACT</div>
+            </div>
+            <article>
+                <h3 class="sidebar-title">CONTACT</h3>
                 <div class="sidebar-content" id="contact">
                     <p>
                         Adresse:<br>
@@ -27,11 +27,12 @@
                     </p>
                     <p>
                         E-mail:<br>
-                        annesophie@gmail.com</p>
+                        annesophie@gmail.com
+                    </p>
                 </div>
-            </section>
-            <section>
-                <div class="sidebar-title">À PROPOS DE MOI</div>
+            </article>
+            <article>
+                <h3 class="sidebar-title">À PROPOS DE MOI</h3>
                 <div class="sidebar-content" id="about">
                     <p> Diplômée de l’ESRA (Bac+3) et après 1 année de master en
                         Lettres Modernes, je suis riche
@@ -45,119 +46,125 @@
                         délivrera à la fin un diplôme Bac+2.
                     </p>
                 </div>
-                <div class="sidebar-title">LOISIRS</div>
+            </article>
+            <article>
+                <h3 class="sidebar-title">LOISIRS</h3>
                 <div class="sidebar-content" id="activities">
                     <i class="fas fa-utensils"></i>
                     <i class="fas fa-laptop"></i>
                     <i class="fas fa-video"></i>
                 </div>
-            </section>
-        </section>
-        <section id="main"> 
+            </article>
+        </div>
+        <section id="main">
             <header>
                 <h1><span id="name">ANNE-SOPHIE</span> FLOURET</h1>
                 <h2><span id="student">Étudi</span>ante OpenClassrooms</h2>
             </header>
-            <h3>
-                <i class="fas fa-graduation-cap"></i>
-                <span class="space">FORMATION</span>
-            </h3>
-            <hr>
-            <article class="experience">              
-                <div class="date-place">
-                	<i class="far fa-dot-circle"></i>
-                    2014-2015 <br>
-                    <span class="place">St Denis</span>
-                </div> 
-                <div class="info">
-                    <div class="company">UNIVERSITÉ DE LA RÉUNION</div>
-                    <div class="job-name">MEEF 1</div>
-                    <h4 class="description">
-                        Master 1 parcours MEEF/Éducation Nationale, Lettres Modernes
-                    </h4>
-                </div>
-            </article>
-            <article class="experience">           
-                <div class="date-place">
-                	<i class="fas fa-circle"></i>
-                    2008-2011 <br>
-                    <span class="place">Paris</span>
-                </div> 
-                <div class="info">
-                    <div class="company">ESRA</div>
-                    <div class="job-name">Desra</div>
-                    <h4 class="description">
-                        École d'Audiovisuelle en parcours "réalisteur TV/WEB"
-                    </h4>
-                </div>
-            </article> 
-            <h3 id="experience-title">
-                <i class="fas fa-briefcase"></i>
-                <span class="space">EXPÉRIENCE PROFESSIONNELLE</span>
-            </h3>
-            <hr>
-            <article class="experience">                
-                <div class="date-place">
-                	<i class="far fa-dot-circle"></i>
-                    2016-2018 <br>
-                    <span class="place">Paris</span>
-                </div> 
-                <div class="info">
-                    <div class="company">ÉDUCATION NATIONALE</div>
-                    <div class="job-name">Professeur des Écoles</div>
-                    <h4 class="description">
-                        Professeur des Écoles en Île de France pour des classes de maternelle section Petits et Moyens
-                    </h4>
-                </div>
-            </article>
-            <article class="experience">                
-                <div class="date-place">
-                	<i class="fas fa-circle"></i>
-                    2014-2015 <br>
-                    <span class="place">St Paul</span>
-                </div> 
-                <div class="info">
-                    <div class="company">ÉDUCATION NATIONALE</div>
-                    <div class="job-name">Assistant d'Éducation</div>
-                    <h4 class="description">
-                        Assistante d'éducation en internat et externat pour le lycée Vue Belle, Île de la Réunion.
-                    </h4>
-                </div>
-            </article>
-            <article class="experience">
-                <div class="date-place">
-                	<i class="fas fa-circle"></i>
-                    2013 <br>
-                    <span class="place">St Paul</span>
-                </div> 
+            <section>
+                <h3>
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="space">FORMATION</span>
+                </h3>
+                <hr>
+                <article class="experience">
+                    <div class="date-place">
+                    	<i class="far fa-dot-circle"></i>
+                        2014-2015 <br>
+                        <span class="place">St Denis</span>
+                    </div> 
                     <div class="info">
-                    <div class="company">ÉDUCATION NATIONALE</div>
-                    <div class="job-name">Professeur de Français</div>
-                    <h4 class="description">
-                        Professeur de Français vacataire, Lycée Vue Belle, Île de la Réunion.
-                    </h4>
-                </div>
-            </article>
-             <article class="experience">
-                <div class="date-place">
-                	<i class="fas fa-circle"></i>
-                    2011 <br>
-                    <span class="place">Paris</span>
-                </div> 
+                        <div class="company">UNIVERSITÉ DE LA RÉUNION</div>
+                        <div class="job-name">MEEF 1</div>
+                        <h4 class="description">
+                            Master 1 parcours MEEF/Éducation Nationale, Lettres Modernes
+                        </h4>
+                    </div>
+                </article>
+                <article class="experience">
+                    <div class="date-place">
+                    	<i class="fas fa-circle"></i>
+                        2008-2011 <br>
+                        <span class="place">Paris</span>
+                    </div> 
                     <div class="info">
-                    <div class="company">Quality Frame</div>
-                    <div class="job-name">Assistante réalisatrice</div>
-                    <h4 class="description">
-                        Assistante réalisatrice sur une web série.
-                    </h4>
-                </div>
-            </article>
+                        <div class="company">ESRA</div>
+                        <div class="job-name">Desra</div>
+                        <h4 class="description">
+                            École d'Audiovisuelle en parcours "réalisteur TV/WEB"
+                        </h4>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <h3 id="experience-title">
+                    <i class="fas fa-briefcase"></i>
+                    <span class="space">EXPÉRIENCE PROFESSIONNELLE</span>
+                </h3>
+                <hr>
+                <article class="experience">
+                    <div class="date-place">
+                    	<i class="far fa-dot-circle"></i>
+                        2016-2018 <br>
+                        <span class="place">Paris</span>
+                    </div> 
+                    <div class="info">
+                        <div class="company">ÉDUCATION NATIONALE</div>
+                        <div class="job-name">Professeur des Écoles</div>
+                        <h4 class="description">
+                            Professeur des Écoles en Île de France pour des classes de maternelle section Petits et Moyens
+                        </h4>
+                    </div>
+                </article>
+                <article class="experience">
+                    <div class="date-place">
+                    	<i class="fas fa-circle"></i>
+                        2014-2015 <br>
+                        <span class="place">St Paul</span>
+                    </div> 
+                    <div class="info">
+                        <div class="company">ÉDUCATION NATIONALE</div>
+                        <div class="job-name">Assistant d'Éducation</div>
+                        <h4 class="description">
+                            Assistante d'éducation en internat et externat pour le lycée Vue Belle, Île de la Réunion.
+                        </h4>
+                    </div>
+                </article>
+                <article class="experience">
+                    <div class="date-place">
+                    	<i class="fas fa-circle"></i>
+                        2013 <br>
+                        <span class="place">St Paul</span>
+                    </div> 
+                        <div class="info">
+                        <div class="company">ÉDUCATION NATIONALE</div>
+                        <div class="job-name">Professeur de Français</div>
+                        <h4 class="description">
+                            Professeur de Français vacataire, Lycée Vue Belle, Île de la Réunion.
+                        </h4>
+                    </div>
+                </article>
+                 <article class="experience">
+                    <div class="date-place">
+                    	<i class="fas fa-circle"></i>
+                        2011 <br>
+                        <span class="place">Paris</span>
+                    </div> 
+                        <div class="info">
+                        <div class="company">Quality Frame</div>
+                        <div class="job-name">Assistante réalisatrice</div>
+                        <h4 class="description">
+                            Assistante réalisatrice sur une web série.
+                        </h4>
+                    </div>
+                </article>
+            </section>
             <section>
                 <h3 id="recommandation-title">
                     <i class="fas fa-pencil-alt"></i>
                     <span class="space">RECOMMANDATION</span>      
                 </h3>
-                <hr> 
+                <hr>
                 <div id="recommandation">
                     <p>
                         QUALITY FRAME<br>

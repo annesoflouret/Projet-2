@@ -28,10 +28,8 @@ h1+h2
   margin-bottom: 5em;
 }
 
-h3
+h3 
 {
-  color: black;
-  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -55,6 +53,7 @@ hr
   color: #00695C;
   padding: 4px;
   font-style: normal;
+  font-size: 16px;
 }
 
 .sidebar-content
@@ -143,6 +142,12 @@ hr
 .place
 {
   padding-left: 1em;
+}
+
+.space
+{
+  color: black;
+  font-size: 20px;
 }
 
 #student
