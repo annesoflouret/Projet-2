@@ -318,4 +318,9 @@ main
     text-align: center;
     margin-right: 0em;
   }
+
+  .description
+  {
+    padding: 0 0.8em;
+  }
 }
