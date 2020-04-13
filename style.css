@@ -28,7 +28,7 @@ h1+h2
   margin-bottom: 5em;
 }
 
-h3 
+h3
 {
   margin-bottom: 0;
 }
@@ -37,15 +37,28 @@ h4
 {
   font-weight: normal;
   font-size: 14px;
-
 }
+
 hr
 {
-
   border-top: 2px solid #009688;
 }
 
 /* Sidebar */
+aside
+{
+  display: block;
+  width: 260px;
+  background-color: #00695C;
+  border: 2px solid #9E9E9E;
+  border-right: none;
+}
+
+figure
+{
+  margin: 0;
+}
+
 .sidebar-title
 {
   text-align: center;
@@ -63,6 +76,14 @@ hr
   font-size: 13px;
 }
 
+address
+{
+  margin: 10px;
+  text-align: left;
+  font-size: 13px;
+  font-style: normal;
+}
+
 #image-ronde
 {
   width : 120px; height : 120px;
@@ -73,22 +94,13 @@ hr
   border: 2px solid #80CBC4;
 }
 
-#sidebar 
-{
-  display: block;
-  width: 260px;
-  background-color: #00695C;
-  border: 2px solid #9E9E9E;
-  border-right: none;
-}
-
 #about
 {
   margin: 3em 3em 54em;
   text-align: justify;
 }
 
-#contact
+address
 {
   margin: 3em;
 }
@@ -114,6 +126,11 @@ hr
   width: 370px;
 }
 
+.info p
+{
+  margin: 0;
+}
+
 .company
 {
   margin-bottom: 0.8em;
@@ -124,11 +141,6 @@ hr
 {
   margin-bottom: 0.8em;
   font-size: 14px;
-}
-
-.description
-{
-  
 }
 
 .experience
@@ -155,7 +167,7 @@ hr
   border-bottom:2px solid #00695C;
 }
 
-#main 
+main
 {
   display: block;
   padding: 40px;
@@ -232,41 +244,78 @@ hr
     flex-wrap: wrap-reverse;
   }
 
+  /* Titres-Border */
+  h3
+  {
+    text-align: center;
+  }
+
   /* Sidebar */
-  #section-image
+  aside
+  {
+    width: 100%;
+    border: none;
+  }
+
+  figure
   {
     display: flex;
     justify-content: center;
   }
 
-  #sidebar
+  address
   {
-    width: 100%;
-    border: none;
+    text-align: center;
   }
 
   #about
   {
-    margin-bottom: 10em;
+    margin: 3em;
   }
 
   /* Main */
-  #main
+  main
   {
     width: 100%;
     border: none;
     box-sizing: border-box;
     padding: 5px;
-
   }
 
+  header
+  {
+    text-align: center;
+  }
+
+  #experience-title, #recommandation-title
+  {
+    margin-top: 1em;
+  }
+
+  .experience
+  {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .date-place
+  {
+    width: auto;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 1em;
+  }
+
+  .info
+  {
+    width: auto;
+  }
 
   #recommandation
   {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
     margin-right: 0em;
   }
 }
-
-
