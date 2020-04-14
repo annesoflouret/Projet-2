@@ -59,6 +59,15 @@ figure
   margin: 0;
 }
 
+address
+{
+  margin: 10px;
+  text-align: left;
+  font-size: 13px;
+  font-style: normal;
+  margin: 3em;
+}
+
 .sidebar-title
 {
   text-align: center;
@@ -76,14 +85,6 @@ figure
   font-size: 13px;
 }
 
-address
-{
-  margin: 10px;
-  text-align: left;
-  font-size: 13px;
-  font-style: normal;
-}
-
 #image-ronde
 {
   width : 120px; height : 120px;
@@ -96,13 +97,8 @@ address
 
 #about
 {
-  margin: 3em 3em 54em;
+  margin: 3em 3em 47em;
   text-align: justify;
-}
-
-address
-{
-  margin: 3em;
 }
 
 #activities
@@ -114,6 +110,14 @@ address
 }
 
 /* Main */
+main
+{
+  padding: 40px;
+  padding-bottom: 0;
+  border: 2px solid #9E9E9E;
+  border-left: none;
+}
+
 .date-place
 {
   text-align: left;
@@ -165,15 +169,6 @@ address
 #student
 {
   border-bottom:2px solid #00695C;
-}
-
-main
-{
-  display: block;
-  padding: 40px;
-  padding-bottom: 0;
-  border: 2px solid #9E9E9E;
-  border-left: none;
 }
 
 #name
@@ -236,7 +231,7 @@ main
 }
 
 /* CSS pour petits écrans */
-@media only screen and (max-width: 1024px) 
+@media only screen and (max-width: 1024px)
 {
   body
   {
@@ -287,11 +282,6 @@ main
     text-align: center;
   }
 
-  #experience-title, #recommandation-title
-  {
-    margin-top: 1em;
-  }
-
   .experience
   {
     flex-direction: column;
@@ -311,16 +301,21 @@ main
     width: auto;
   }
 
+  .description
+  {
+    padding: 0 0.8em;
+  }
+
+  #experience-title, #recommandation-title
+  {
+    margin-top: 1em;
+  }
+
   #recommandation
   {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-right: 0em;
-  }
-
-  .description
-  {
-    padding: 0 0.8em;
   }
 }
